@@ -1,14 +1,195 @@
-#root {
-  max-width: 1280px;
+.app {
+  max-width: 900px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 1rem;
+}
+
+.hero {
   text-align: center;
+  padding: 3rem 0 2rem;
 }
 
-.card {
-  padding: 2em;
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.read-the-docs {
-  color: #888;
+.badge-label {
+  font-size: 0.8rem;
+  color: #57606a;
+  background: #f6f8fa;
+  padding: 0.15rem 0.6rem;
+  border-radius: 6px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin: 0 0 0.75rem;
+  color: #1a1a2e;
+}
+
+.highlight {
+  color: #0969da;
+}
+
+.subtitle {
+  color: #656d76;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  padding: 0.6em 1.5em;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-primary {
+  background: #0969da;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #0550ae;
+}
+
+.btn-secondary {
+  background: #f6f8fa;
+  color: #24292f;
+  border: 1px solid #d0d7de;
+}
+
+.btn-secondary:hover {
+  background: #eaeef2;
+}
+
+.demo {
+  text-align: center;
+  padding: 2rem;
+  background: #f6f8fa;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.demo h2 {
+  margin: 0 0 0.5rem;
+  color: #1a1a2e;
+}
+
+.demo p {
+  color: #656d76;
+  margin-bottom: 1rem;
+}
+
+.counter-btn {
+  padding: 0.75em 2em;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background: #0969da;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.counter-btn:active {
+  transform: scale(0.97);
+}
+
+.counter-btn:hover {
+  background: #0550ae;
+}
+
+.pipeline {
+  padding: 2rem 0;
+}
+
+.pipeline h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #1a1a2e;
+}
+
+.steps {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.step {
+  text-align: center;
+  width: 140px;
+}
+
+.step-icon {
+  font-size: 2rem;
+  display: block;
+}
+
+.step strong {
+  display: block;
+  margin: 0.25rem 0;
+  color: #1a1a2e;
+}
+
+.step p {
+  font-size: 0.8rem;
+  color: #656d76;
+  margin: 0;
+}
+
+.step-arrow {
+  font-size: 1.5rem;
+  color: #d0d7de;
+  margin-top: 0.75rem;
+}
+
+.tech-stack {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.tech-stack h2 {
+  margin-bottom: 1rem;
+  color: #1a1a2e;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: #ddf4ff;
+  color: #0969da;
+  padding: 0.3em 0.9em;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+  color: #8b949e;
+  font-size: 0.85rem;
+  border-top: 1px solid #eaeef2;
 }
